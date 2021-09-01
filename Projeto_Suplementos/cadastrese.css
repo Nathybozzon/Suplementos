@@ -1,0 +1,158 @@
+/*ESTILIZANDO A PÁGINA:*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: rgb(143, 3, 3)
+}
+
+#logo-main {
+    display: block;
+    margin: auto;
+    width:37%;
+    height:27rem;
+  }
+
+#menu {       
+  background-color:  rgba(251, 221, 145, 0.787);
+  font-size: 21px;
+  font-weight: bold;
+}
+
+a {
+  color:black;
+}
+
+
+#corpo {
+  background-color: rgba(243, 240, 240, 0.863);
+
+}
+
+
+.copyright {
+  padding: 1vh 0 1vh 0;
+  font-size: small;
+  font-family: 'Courier New', Courier, monospace;
+  color:black;
+  text-align: center;
+  background-color: rgb(156, 18, 18)
+
+}
+
+.image_fixed {
+  position: fixed;
+  bottom: 2vh;
+  right: 2vw;
+  width: 7vw;
+
+}
+
+.tenth {
+   margin-left: 20px;
+}
+
+#topo {
+  position:fixed;
+  right:0;
+  top: 200px;
+}
+
+  /* FORM */
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+label {
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 40px;
+    background-color: #FBC779;
+}
+
+input:focus, label:focus {
+    outline: none;
+}
+
+#mainContainer {
+    width: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF5D1;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 3px 3px 10px rgb(99 98 98);
+}
+
+#mainContainer h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fullBox {
+    flex: 1 1 100%;
+    position: relative;
+}
+
+.halfBox {
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.quarterBox {
+    flex: 0 0 31.67%;
+    position: relative;
+}
+
+.spacing {
+    margin-right: 1.67%;
+}
+
+
+input[type="submit"] {
+    background: #E8A33B;
+    height: 40px;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgb(99 98 98);
+    color: white;
+    margin-top: 40px;
+}
+
+input[type="submit"]:hover {
+    color: black;
+    background: white;
+}
+
+
+.select select {     
+    border-radius: 15px;
+    background-color: #fbc779;       
+    width: 100%; 
+    height:35px; 
+    color: black;
+    text-indent: 0.01px;      
+    text-overflow: "";   
+}
+
+
+
+

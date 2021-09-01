@@ -1,0 +1,109 @@
+
+/*ESTILIZANDO A PÁGINA:*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: rgb(143, 3, 3)
+}
+
+#logo-main {
+    display: block;
+    margin: auto;
+    width:37%;
+    height:27rh;
+  }
+
+#menu {       
+  background-color:  rgba(251, 221, 145, 0.787);
+  font-size: 21px;
+  font-weight: bold;
+}
+
+a {
+  color:black;
+}
+
+
+#corpo {
+  background-color: rgba(243, 240, 240, 0.863);
+
+}
+
+
+.copyright {
+  padding: 1vh 0 1vh 0;
+  font-size: small;
+  font-family: 'Courier New', Courier, monospace;
+  color:black;
+  text-align: center;
+  background-color: rgb(156, 18, 18)
+
+}
+
+.image_fixed {
+  position: fixed;
+  bottom: 2vh;
+  right: 2vw;
+  width: 7vw;
+
+}
+
+.tenth {
+   margin-left: 20px;
+}
+
+#topo {
+  position:fixed;
+  right:0;
+  top: 400px;
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
+/*ESTILIZANDO CONTEÚDO*/
+
+.promo {
+  border-style: solid;
+  margin-top: 8rem;
+  margin-left: 2px;
+  width:19vw;
+  height
+}
+
+
+#tam {
+  width: 4vw;
+}
+
+p{
+  font-weight: 500;
+}
+
+.imagens {
+  border:1px solid;
+  
+}
+.imagens img {
+
+  height: 35vh;
+  width: 80vw;
+  margin-top: 10px;
+}
+#borda {
+  border:1px solid; 
+}
+#flex {
+         display: flex;
+         flex-wrap: wrap;
+  
+}
+#ofertas {
+  margin-top: 80px;
+  margin-left: 80px
+}
+

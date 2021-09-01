@@ -1,0 +1,120 @@
+/*ESTILIZANDO A PÁGINA:*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: rgb(143, 3, 3)
+}
+
+#logo-main {
+    display: block;
+    margin: auto;
+    width:37%;
+    height:27rem;
+  }
+
+#menu {       
+  background-color:  rgba(251, 221, 145, 0.787);
+  font-size: 21px;
+  font-weight: bold;
+}
+
+a {
+  color:black;
+}
+
+
+#corpo {
+  background-color: rgba(243, 240, 240, 0.863);
+  
+}
+
+
+.copyright {
+  padding: 1vh 0 1vh 0;
+  font-size: small;
+  font-family: 'Courier New', Courier, monospace;
+  color:black;
+  text-align: center;
+  background-color: rgb(156, 18, 18)
+
+}
+
+.image_fixed {
+  position: fixed;
+  bottom: 2vh;
+  right: 2vw;
+  width: 7vw;
+
+}
+
+.tenth {
+   margin-left: 20px;
+}
+
+#topo {
+  position:fixed;
+  right:0;
+  top: 200px;
+}
+
+  /* Estilizando o Conteúdo */
+
+ #atletas {
+      margin-top: 8%;
+      margin-left: 17%;
+      float: left;
+      border-style: solid;
+  }
+  
+  #t1 {
+      width: 25rem;
+      margin-top: 8%;
+      margin-right: 16rem;
+      float: right;
+      border-style: solid;
+      overflow:auto ;
+      height: 344px;
+      
+  }
+
+  #t2 {
+    width: 60%;
+    height: 200px;
+    border-style: solid;
+    margin: 0 auto;
+    margin-top: 0px;
+  
+    margin-bottom: 30px;
+    overflow:auto ;
+  }
+  h2 { 
+      text-align: center;
+      margin-top: 10%;
+      font-family: cursive;
+      font-size: 400%;
+    }
+
+  p {
+    text-align: center;
+  }
+
+ 
+  #btn1 {
+    width: 60%;
+    height: 7rem;
+    background-color: rgba(251, 221, 145, 0.787);
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 95px;
+    margin-left: 270px;
+    margin-bottom: 10px;
+   
+}
+
+footer{
+  background-color: rgba(243, 240, 240, 0.863);
+}
